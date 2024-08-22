@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any("/any", function () {
+Route::get("/any", function () {
     return view('permite tudo');
+});
+
+Route::get('/page2', function () {
+    return view('/articles/page2');
 });
 
 Route::get('/cisco', function () {

@@ -1,4 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body{
-    background-color: red;
+:root{
+
+    --cor1: #00747C;
+    --cor2: #0faab5;
+    --cor3: #CACACA;
+    --cor4: #878787;
+    --cor5: #202022;
 }
+
+
+
