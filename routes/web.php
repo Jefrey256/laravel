@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/page', function () {
+    return view('/articles/page');
+});
 
 Route::get("/any", function () {
     return view('permite tudo');

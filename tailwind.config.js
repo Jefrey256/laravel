@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'selector',
   content: [
     './resources/views/**/*.blade.php',
     './resources/js/**/*.vue',

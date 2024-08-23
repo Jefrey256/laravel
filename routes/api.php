@@ -3,6 +3,10 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+//IMPORTÇAO DO COMTROLE
+use App\Http\Controllers\Simple;
+
+Route::get('/data', [Simple::class, 'index']);
 /*
 |--------------------------------------------------------------------------
 | API Routes

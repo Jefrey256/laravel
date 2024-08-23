@@ -2,14 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root{
 
-    --cor1: #00747C;
-    --cor2: #0faab5;
-    --cor3: #CACACA;
-    --cor4: #878787;
-    --cor5: #202022;
+    --cor1: #1E3A8A;
+    --cor2: #FFFFFF;
+    --cor3: #F3F4F6;
+    --cor4: #111827;
+    --cor5: #2563EB;
+    --cor6: #E11D48;
+    --cor7: #3B82F6;
+    --cor8: #4B5563;
+    --cor9: #1D4ED8;
+   
 }
 
+
+
+
+@layer base {
+  .dark .bg-cor3 {
+    background-color: #1e293b; 
+  }
+  .dark .text-cor4 {
+    color: #e2e8f0; 
+  }
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
 
 
